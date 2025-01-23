@@ -1,0 +1,6 @@
+@sumStore.Host_HostAddress = http://localhost:5070
+
+GET {{sumStore.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
