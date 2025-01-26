@@ -29,7 +29,7 @@ namespace sumStore.Infrastructure.DependencyInjection
             services.AddScoped<IGeneric<Category>, GenericRepository<Category>>();
             services.AddScoped<IGeneric<Product>, GenericRepository<Product>>();
             services.AddScoped<IGeneric<Review>, GenericRepository<Review>>();
-            services.AddScoped<IGeneric<User>, GenericRepository<User>>();
+            //services.AddScoped<IGeneric<User>, GenericRepository<User>>();
             return services;
         }
     }

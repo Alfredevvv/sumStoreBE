@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "8GOToAtqw/uVizZrqvRPTPPcM2S0JrTylsApOTfd6M0=",
+  "Source": "sumStore.Host",
+  "BasePath": "_content/sumStore.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

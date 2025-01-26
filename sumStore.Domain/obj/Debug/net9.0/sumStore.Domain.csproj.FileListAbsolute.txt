@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\bin\Debug\net9.0\sumStore.Domain.deps.json
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\bin\Debug\net9.0\sumStore.Domain.dll
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\bin\Debug\net9.0\sumStore.Domain.pdb
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\obj\Debug\net9.0\sumStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\obj\Debug\net9.0\sumStore.Domain.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\obj\Debug\net9.0\sumStore.Domain.AssemblyInfo.cs
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\obj\Debug\net9.0\sumStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\obj\Debug\net9.0\sumStore.Domain.sourcelink.json
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\obj\Debug\net9.0\sumStore.Domain.dll
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\obj\Debug\net9.0\refint\sumStore.Domain.dll
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\obj\Debug\net9.0\sumStore.Domain.pdb
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Domain\obj\Debug\net9.0\ref\sumStore.Domain.dll

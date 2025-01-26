@@ -1,0 +1,16 @@
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\bin\Debug\net9.0\sumStore.Application.deps.json
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\bin\Debug\net9.0\sumStore.Application.dll
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\bin\Debug\net9.0\sumStore.Application.pdb
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\bin\Debug\net9.0\sumStore.Domain.dll
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\bin\Debug\net9.0\sumStore.Domain.pdb
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\obj\Debug\net9.0\sumStore.Application.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\obj\Debug\net9.0\sumStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\obj\Debug\net9.0\sumStore.Application.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\obj\Debug\net9.0\sumStore.Application.AssemblyInfo.cs
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\obj\Debug\net9.0\sumStore.Application.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\obj\Debug\net9.0\sumStore.Application.sourcelink.json
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\obj\Debug\net9.0\sumStore.35135BC8.Up2Date
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\obj\Debug\net9.0\sumStore.Application.dll
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\obj\Debug\net9.0\refint\sumStore.Application.dll
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\obj\Debug\net9.0\sumStore.Application.pdb
+C:\Users\PC\Desktop\SumStore\SumStoreSln\sumStore.Application\obj\Debug\net9.0\ref\sumStore.Application.dll

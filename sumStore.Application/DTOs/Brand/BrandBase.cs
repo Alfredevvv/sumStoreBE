@@ -1,7 +1,10 @@
-﻿namespace sumStore.Application.DTOs.Brand
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace sumStore.Application.DTOs.Brand
 {
     public class BrandBase
     {
-        public required string Name { get; set; }
+        [Required]
+        public string? Name { get; set; }
     }
 }

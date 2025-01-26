@@ -1,0 +1,298 @@
+[
+  {
+    "ContainingType": "sumStore.Host.Controllers.BrandController",
+    "Method": "Add",
+    "RelativePath": "api/Brand/add-brand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brand",
+        "Type": "sumStore.Application.DTOs.Brand.CreateBrand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.BrandController",
+    "Method": "GetAllBrands",
+    "RelativePath": "api/Brand/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.BrandController",
+    "Method": "Delete",
+    "RelativePath": "api/Brand/delete-brand/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.BrandController",
+    "Method": "GetSingleBrand",
+    "RelativePath": "api/Brand/single-brand/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.BrandController",
+    "Method": "Update",
+    "RelativePath": "api/Brand/update-brand",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brand",
+        "Type": "sumStore.Application.DTOs.Brand.UpdateBrand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.CategoryController",
+    "Method": "Add",
+    "RelativePath": "api/Category/add-category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "sumStore.Application.DTOs.Category.CreateCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Category/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.CategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/Category/delete-category/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.CategoryController",
+    "Method": "GetSingleCategory",
+    "RelativePath": "api/Category/single-category/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.CategoryController",
+    "Method": "Update",
+    "RelativePath": "api/Category/update-category",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "sumStore.Application.DTOs.Category.UpdateCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.ProductController",
+    "Method": "Add",
+    "RelativePath": "api/Product/add-product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "sumStore.Application.DTOs.Product.CreateProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.ProductController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Product/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/delete-product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.ProductController",
+    "Method": "GetSingleProduct",
+    "RelativePath": "api/Product/single-product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.ProductController",
+    "Method": "Update",
+    "RelativePath": "api/Product/update-product",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "sumStore.Application.DTOs.Product.UpdateProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.ReviewController",
+    "Method": "Add",
+    "RelativePath": "api/Review/add-review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "review",
+        "Type": "sumStore.Application.DTOs.Review.CreateReview",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.ReviewController",
+    "Method": "GetAllReviews",
+    "RelativePath": "api/Review/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.ReviewController",
+    "Method": "Delete",
+    "RelativePath": "api/Review/delete-review/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.ReviewController",
+    "Method": "GetSingleReview",
+    "RelativePath": "api/Review/single-review/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sumStore.Host.Controllers.ReviewController",
+    "Method": "Update",
+    "RelativePath": "api/Review/update-review",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "review",
+        "Type": "sumStore.Application.DTOs.Review.UpdateReview",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

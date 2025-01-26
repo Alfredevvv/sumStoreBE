@@ -14,4 +14,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\sumStore.Application\sumStore.Application.csproj" />
+    <ProjectReference Include="..\sumStore.Infrastructure\sumStore.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

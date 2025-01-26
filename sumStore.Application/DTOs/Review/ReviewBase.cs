@@ -1,11 +1,21 @@
-﻿namespace sumStore.Application.DTOs.Review
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace sumStore.Application.DTOs.Review
 {
     public class ReviewBase
     {
-        public required string Title { get; set; }
+        [Required]
+        public string? Title { get; set; }
+
         public string? Comment { get; set; }
-        public required int Rating { get; set; }
+
+        [Required]
+        public int Rating { get; set; }
+
+        [Required]
         public Guid UserId { get; set; }
+
+        [Required]
         public Guid ProductId { get; set; }
     }
 }

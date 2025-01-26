@@ -1,7 +1,10 @@
-﻿namespace sumStore.Application.DTOs.Category
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace sumStore.Application.DTOs.Category
 {
     public class CategoryBase
     {
-        public required string Name { get; set; }
+        [Required]
+        public string? Name { get; set; }
     }
 }
