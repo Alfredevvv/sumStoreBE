@@ -12,6 +12,8 @@ namespace sumStore.Host.Controllers
         [HttpGet("all")]
         public async Task<IActionResult> GetAllProducts()
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
             var products = await productService.GetAllAsync();
             return products.Count() > 0 ? 
                                 Ok(products) 
@@ -21,6 +23,8 @@ namespace sumStore.Host.Controllers
         [HttpGet("single-product/{id}")]
         public async Task<IActionResult> GetSingleProduct(Guid id)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
             var product = await productService.GetByIdAsync(id);
             return product != null ?
                                 Ok(product)
@@ -30,6 +34,8 @@ namespace sumStore.Host.Controllers
         [HttpPost("add-product")]
         public async Task<IActionResult> Add(CreateProduct product)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
             var response = await productService.AddAsync(product);
             return response.Success ?
                                 Ok(response)
@@ -39,6 +45,8 @@ namespace sumStore.Host.Controllers
         [HttpPut("update-product")]
         public async Task<IActionResult> Update(UpdateProduct product)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
             var response = await productService.UpdateAsync(product);
             return response.Success ?
                                 Ok(response)
@@ -48,6 +56,8 @@ namespace sumStore.Host.Controllers
         [HttpDelete("delete-product/{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
             var response = await productService.DeleteAsync(id);
             return response.Success ?
                                 Ok(response)

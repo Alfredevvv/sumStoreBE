@@ -1,4 +1,5 @@
 ﻿
+using EntityFramework.Exceptions.SqlServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,7 +23,7 @@ namespace sumStore.Infrastructure.DependencyInjection
                         sqlOptions.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName);
                         sqlOptions.EnableRetryOnFailure(); //Enable automatic retries for trasient failures
                     }
-                ),
+                ).UseExceptionProcessor(), //Exceptions comming from ExceptionHAndlingMiddleware
                    ServiceLifetime.Scoped
                 );
             services.AddScoped<IGeneric<Brand>, GenericRepository<Brand>>();
